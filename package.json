@@ -9,7 +9,8 @@
     "serve": "vue-cli-service serve --open",
     "electron": "NODE_ENV=DEV vue-cli-service serve & sleep 5 && NODE_ENV=DEV electron app.js",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start":"app.js"
   },
   "repository": {
     "type": "git",
